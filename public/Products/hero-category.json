@@ -1,0 +1,122 @@
+[
+    {
+        "id":1,
+        "img":"public/Images/paan-corner_web.jpeg",
+        "title":"Pan Corner",
+        "path":"/pan"
+    },
+    {
+        "id":2,
+        "img":"public/Images/Slice-2_10.png",
+        "title":"Dairy Bread & Eggs",
+        "path":"/dairy"
+    },
+      {
+        "id":3,
+        "img":"public/Images/Slice-3_9.png",
+        "title":"Fruits & vegetables",
+        "path":"/dairy"
+    },
+      {
+        "id":4,
+        "img":"public/Images/Slice-4_9.png",
+        "title":"Dairy Bread & Eggs",
+        "path":"/dairy"
+    },
+      {
+        "id":5,
+        "img":"public/Images/Slice-5_4.png",
+        "title":"Dairy Bread & Eggs",
+        "path":"/dairy"
+    },
+      {
+        "id":6,
+        "img":"public/Images/Slice-6_5.png",
+        "title":"Breakfast & Instant Food",
+        "path":"/dairy"
+    },
+      {
+        "id":7,
+        "img":"public/Images/Slice-7_3.png",
+        "title":"Sweet Tooth",
+        "path":"/dairy"
+    },
+      {
+        "id":8,
+        "img":"public/Images/Slice-8_4.png",
+        "title":"Bakery & Biscuits",
+        "path":"/dairy"
+    },
+      {
+        "id":9,
+        "img":"public/Images/Slice-7-1_0.png",
+        "title":"Dairy Bread & Eggs",
+        "path":"/dairy"
+    },
+      {
+        "id":10,
+        "img":"public/Images/Slice-10.png",
+        "title":"Atta, Rice & Dal",
+        "path":"/dairy"
+    },
+      {
+        "id":11,
+        "img":"public/Images/Slice-11.png",
+        "title":"Masala Oil & More",
+        "path":"/dairy"
+    },
+     {
+        "id":2,
+        "img":"public/Images/Slice-2_10.png",
+        "title":"Dairy Bread & Eggs",
+        "path":"/dairy"
+    },
+      {
+        "id":2,
+        "img":"public/Images/Slice-2_10.png",
+        "title":"Dairy Bread & Eggs",
+        "path":"/dairy"
+    },
+      {
+        "id":2,
+        "img":"public/Images/Slice-2_10.png",
+        "title":"Dairy Bread & Eggs",
+        "path":"/dairy"
+    },
+      {
+        "id":2,
+        "img":"public/Images/Slice-2_10.png",
+        "title":"Dairy Bread & Eggs",
+        "path":"/dairy"
+    },
+      {
+        "id":2,
+        "img":"public/Images/Slice-2_10.png",
+        "title":"Dairy Bread & Eggs",
+        "path":"/dairy"
+    },
+      {
+        "id":2,
+        "img":"public/Images/Slice-2_10.png",
+        "title":"Dairy Bread & Eggs",
+        "path":"/dairy"
+    },
+      {
+        "id":2,
+        "img":"public/Images/Slice-2_10.png",
+        "title":"Dairy Bread & Eggs",
+        "path":"/dairy"
+    },
+      {
+        "id":2,
+        "img":"public/Images/Slice-2_10.png",
+        "title":"Dairy Bread & Eggs",
+        "path":"/dairy"
+    },
+      {
+        "id":2,
+        "img":"public/Images/Slice-2_10.png",
+        "title":"Dairy Bread & Eggs",
+        "path":"/dairy"
+    }
+]

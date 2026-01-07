@@ -1,0 +1,24 @@
+.product-card-outer{
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product-card-outer img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.product-btn-outer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.product-btn-outer button{
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
