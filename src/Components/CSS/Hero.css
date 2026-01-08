@@ -1,17 +1,20 @@
-.Hero{
-    margin:0 2%;
+.Hero {
+    margin: 0 2%;
 }
-#banner img{
+
+#banner img {
     height: 100%;
     width: 100%;
 }
-#products{
+
+#products {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
     padding: 0px 15px;
 }
-.hero-sale{
+
+.hero-sale {
     display: flex;
     flex-wrap: wrap;
     gap: 3%;
@@ -20,6 +23,24 @@
     cursor: pointer;
 
 }
-.hero-sale>img{
+
+.hero-sale>img {
     width: 30%;
+}
+
+.slice {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+    max-width: 100vw;
+    flex-wrap: nowrap;
+}
+.slice-item {
+    width: 100%;
+    height: auto;
+}
+
+.slice-img {
+    width: 100%;
+    height: auto;
 }

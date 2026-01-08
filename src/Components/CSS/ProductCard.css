@@ -1,24 +1,94 @@
-.product-card-outer{
-    width: 200px;
-    border: 1px solid #ddd;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
+.product-card-outer {
+  background: #fff;
+  border-radius: 10px;
+  padding: 12px;
+  border: 1px solid #eaeaea;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s ease;
 }
 
-.product-card-outer img{
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
+.product-card-outer:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
 }
-.product-btn-outer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+
+.product-card-outer img {
+  width: 100%;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 8px;
 }
-.product-btn-outer button{
-    border: none;
-    padding: 8px;
-    cursor: pointer;
+
+.product-card-outer h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+  margin: 4px 0;
+  line-height: 1.3;
+}
+
+.product-card-outer p {
+  font-size: 12px;
+  color: #777;
+  margin: 2px 0 8px;
+}
+
+/* Price + ADD button row */
+.product-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.product-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #111;
+}
+
+.add-btn {
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: 1px solid #0c831f;
+  background: #fff;
+  color: #0c831f;
+  font-size: 9px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: #0c831f;
+  color: #fff;
+}
+.price-section {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+/* Selling price */
+.product-price {
+  font-size: 15px;
+  font-weight: 700;
+  color: #111;
+}
+
+/* MRP (strikethrough) */
+.product-mrp {
+  font-size: 12px;
+  color: #888;
+  text-decoration: line-through;
+}
+
+/* Discount badge */
+.product-discount {
+  font-size: 11px;
+  font-weight: 700;
+  color: #0c831f;
+  background: #e8f5ec;
+  padding: 2px 6px;
+  border-radius: 4px;
 }

@@ -66,57 +66,57 @@
         "path":"/dairy"
     },
      {
-        "id":2,
-        "img":"public/Images/Slice-2_10.png",
-        "title":"Dairy Bread & Eggs",
+        "id":12,
+        "img":"public/Images/Slice-12.png",
+        "title":"Sauces",
         "path":"/dairy"
     },
       {
-        "id":2,
-        "img":"public/Images/Slice-2_10.png",
-        "title":"Dairy Bread & Eggs",
+        "id":13,
+        "img":"public/Images/Slice-13.png",
+        "title":"Chicken, Meat & Fish",
         "path":"/dairy"
     },
       {
-        "id":2,
-        "img":"public/Images/Slice-2_10.png",
-        "title":"Dairy Bread & Eggs",
+        "id":14,
+        "img":"public/Images/Slice-14.png",
+        "title":"Organic & Healthy Living",
         "path":"/dairy"
     },
       {
-        "id":2,
-        "img":"public/Images/Slice-2_10.png",
-        "title":"Dairy Bread & Eggs",
+        "id":15,
+        "img":"public/Images/Slice-15.png",
+        "title":"Baby Care",
         "path":"/dairy"
     },
       {
-        "id":2,
-        "img":"public/Images/Slice-2_10.png",
-        "title":"Dairy Bread & Eggs",
+        "id":16,
+        "img":"public/Images/Slice-16.png",
+        "title":"Pharma & Wellness",
         "path":"/dairy"
     },
       {
-        "id":2,
-        "img":"public/Images/Slice-2_10.png",
-        "title":"Dairy Bread & Eggs",
+        "id":17,
+        "img":"public/Images/Slice-17.png",
+        "title":"Cleaning Essensials",
         "path":"/dairy"
     },
       {
-        "id":2,
-        "img":"public/Images/Slice-2_10.png",
-        "title":"Dairy Bread & Eggs",
+        "id":18,
+        "img":"public/Images/Slice-18.png",
+        "title":"Home & Office",
         "path":"/dairy"
     },
       {
-        "id":2,
-        "img":"public/Images/Slice-2_10.png",
-        "title":"Dairy Bread & Eggs",
+        "id":19,
+        "img":"public/Images/Slice-19.png",
+        "title":"Personal Care",
         "path":"/dairy"
     },
       {
-        "id":2,
-        "img":"public/Images/Slice-2_10.png",
-        "title":"Dairy Bread & Eggs",
+        "id":20,
+        "img":"public/Images/Slice-20.png",
+        "title":"Pet Care",
         "path":"/dairy"
     }
 ]
