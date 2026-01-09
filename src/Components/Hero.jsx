@@ -10,7 +10,6 @@ const Hero = () => {
             .then((res) => res.json())
             .then((data) => setCategory(data))
     }, [])
-    console.log(category)
     return (
         <section className='Hero'>
             

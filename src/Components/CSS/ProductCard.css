@@ -1,4 +1,5 @@
 .product-card-outer {
+  width: 200px;
   background: #fff;
   border-radius: 10px;
   padding: 12px;
@@ -7,6 +8,46 @@
   flex-direction: column;
   transition: box-shadow 0.2s ease;
 }
+
+/* Quantity controller container */
+.qty-controller {
+  display: flex;
+  align-items: center;
+  border: 1px solid #0c831f;
+  border-radius: 6px;
+  overflow: hidden;
+  height: 28px;
+}
+
+/* - and + buttons */
+.qty-controller button {
+  width: 28px;
+  height: 100%;
+  border: none;
+  background: #fff;
+  color: #0c831f;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qty-controller button:hover {
+  background: #0c831f;
+  color: #fff;
+}
+
+/* Quantity number */
+.qty-controller span {
+  width: 32px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: #111;
+}
+
 
 .product-card-outer:hover {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
@@ -62,6 +103,7 @@
   background: #0c831f;
   color: #fff;
 }
+
 .price-section {
   display: flex;
   align-items: center;
