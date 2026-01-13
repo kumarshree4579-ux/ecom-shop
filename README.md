@@ -19,3 +19,23 @@ Next :-
 show item with details :- two COD UPI(GPay,Phonepay) sweetAlert
 
 Seraching & filter :-
+
+show item with details :- two COD UPI(GPay,Phonepay) sweetAlert
+
+Seraching & filter :-
+
+Payment Gateway opt
+
+Razor Pay
+
+PhonePay
+
+Paypal
+
+Public Key (Safe) frontend plce
+
+Secret Key (locker) backned
+
+razorpay popup open
+
+Payment UI
