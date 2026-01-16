@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './CSS/Header.css'
 import { useCart } from '../Context/CartContext';
 import { useNavigate } from 'react-router-dom';
+import LoginForm from './LoginForm';
 const Header = ({ search, setSearch, isSearchOpen, setIsSearchOpen }) => {
     const { cart } = useCart();
     const navigate = useNavigate();
@@ -48,16 +49,14 @@ const Header = ({ search, setSearch, isSearchOpen, setIsSearchOpen }) => {
                     <div className="search-outer">
                         <div className="search-icon"><i className="bi bi-search"></i></div>
 
-                        {!isFocused && (
+                        {!isFocused && search==="" &&(
                          <span key={placeHolderIndex} className='search-placeholder'>
                             {placeHolder[placeHolderIndex]}
                         </span>
                        )}
 
                         <input type="search" onFocus={() =>{ setIsSearchOpen(true); setIsFocused(true) }} onBlur={()=>setIsFocused(false)} value={search} onChange={(e) => setSearch(e.target.value)} />
-                        {isSearchOpen && (
-                            <div className="search-icon" onClick={() => setIsSearchOpen(false)}><i className="bi bi-x-lg"></i></div>
-                        )}
+                       
                     </div>
                 </div>
                 <div className={`header-btn ${totalItems > 0 ? "header-active" : "header-disabled"}`}>
@@ -68,6 +67,7 @@ const Header = ({ search, setSearch, isSearchOpen, setIsSearchOpen }) => {
                     <button onClick={() => navigate("/cart")} className='btn-cart'> <i className="bi bi-cart4"></i> My Cart {totalItems}</button>
                 </div>
             </div>
+                <LoginForm/>
 
         </>
     )

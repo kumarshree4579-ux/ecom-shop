@@ -1,0 +1,38 @@
+.login-outer {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    backdrop-filter: blur(3px);
+}
+.login-form{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 40%;
+    height: 50%;
+}
+.left-arrow{
+    padding: 20px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.login-top{
+    display:flex;
+    justify-content: center;
+}
+.login-logo{
+     font-size: 1.4rem;
+    font-weight: 700;
+    background-color: #F8CB46;
+    padding: 20px;
+    border-radius: 20px;
+}
+.login-ecom{
+    color: #000;
+}
+.login-shop{
+    color:#54B226;
+}
