@@ -1,0 +1,46 @@
+.skelton-card {
+    width: 200px;
+    padding: 10px;
+}
+
+.skelton-img {
+    height: 120px;
+    background-color: #eee;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.skelton-line {
+    height: 15px;
+    background-color: #eee;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.skelton-line.small {
+    width: 60%;
+}
+
+.skelton-btn-outer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skelton-btn {
+    height: 40px;
+    width: 40%;
+    background-color: #eee;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.skelton-img,
+.skelton-line,
+.skelton-btn {
+    animation: anim 1.2s infinite linear;
+}
+@keyframes anim{
+    0%{opacity: 0.6;}
+    50%{opacity: 1;}
+    100%{opacity: 0.6;}
+}

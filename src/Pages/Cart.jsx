@@ -5,7 +5,7 @@ import "./CSS/Cart.css";
 import { useNavigate } from "react-router-dom";
 
 const Cart = () => {
-  const { cart, IncreaseQty, DecreaseQty, removeItem } = useCart();
+  const { cart, IncreaseQty, DecreaseQty, removeItem, clearCart } = useCart();
   const [showForm, setShowForm] = useState(false)
   const navigate = useNavigate();
   const [orderData, setOrderData] = useState({
@@ -18,21 +18,25 @@ const Cart = () => {
   })
 
   const { totalMrp, totalPrice, totalQty } = useMemo(() => {
-    const totalMrp = cart.reduce(
-      (total, item) => total + item.mrp * item.qty, 0
-    );
-
-    const totalPrice = cart.reduce(
-      (total, item) => total + item.price * item.qty,
-      0
-    );
-    const totalQty = cart.reduce((sum, item) => sum + item.qty, 0);
-    return { totalMrp, totalPrice, totalQty };
+    return cart.reduce((acc, item) => {
+      acc.totalMrp += item.mrp * item.qty;
+      acc.totalPrice += item.price * item.qty;
+      acc.totalQty += item.qty;
+      return acc;
+    }, { totalMrp: 0, totalPrice: 0, totalQty: 0 });
   }, [cart]);
 
 
-  const tax = Math.round(totalPrice * 0.05);
+
+  const tax = Number((totalPrice * 0.05).toFixed(2));
   const delivery = totalPrice > 999 ? 0 : 49;
+  const actualAmount = totalPrice + tax + delivery;
+  const payable = Math.round(actualAmount);
+  const roundOff = Number((payable - actualAmount).toFixed(2));
+
+
+
+  console.log(payable);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -65,7 +69,7 @@ const Cart = () => {
     const order = {
       customer: orderData,
       product: cart,
-      totalAmount: totalPrice + tax + delivery,
+      totalAmount: payable, roundOff,
       orderDate: new Date().toLocaleString()
     }
     const prevOrders = JSON.parse(localStorage.getItem("myOrders")) || [];
@@ -86,9 +90,11 @@ const Cart = () => {
       state: "",
       zip: ""
     })
+    clearCart();
   }
 
   return (
+    <>
     <section className="cart-container">
       {cart.length === 0 ? (
         <div className="cart-empty">
@@ -99,11 +105,11 @@ const Cart = () => {
         </div>
       ) : (
         <div className="cart-content">
-          {/* Left Column: Cart Items */}
           <div className="cart-items-column">
             <header className="cart-header">
               <h2>Shopping Cart</h2>
-              <span>{cart.length} Items</span>
+
+              <button className="checkout-btn btn-top" onClick={() => setShowForm(true)}>Proceed to Checkout <div className="checkout-details"><span className="checkout-len">{totalQty} Items</span> <span><strong>₹{payable}</strong></span></div></button>
             </header>
 
             <div className="cart-list">
@@ -151,7 +157,6 @@ const Cart = () => {
             </div>
           </div>
 
-          {/* Right Column: Checkout Summary */}
           <aside className="cart-summary-column">
             <div className="cart-summary-box">
               <h3>Order Summary</h3>
@@ -184,9 +189,16 @@ const Cart = () => {
                 <span>Delivery Charge:</span>
                 <span>{delivery === 0 ? "Free" : "₹" + delivery}</span>
               </div>
+
+              <div className="cart-summary-details savings">
+                <span className={roundOff > 0 ? "" : ""}>Round Off:</span>
+                <span>
+                  {roundOff > 0 ? `+₹${roundOff}` : `₹${roundOff}`}
+                </span>
+              </div>
               <div className="cart-summary-total">
                 <span>Payable Amount:</span>
-                <strong>₹{totalPrice + tax + delivery}</strong>
+                <strong>₹{payable}</strong>
               </div>
               <button className="checkout-btn" onClick={() => setShowForm(true)}>Proceed to Checkout</button>
             </div>
@@ -195,94 +207,28 @@ const Cart = () => {
       )}
 
       {showForm && (
-        <div style={modalStyle}>
-          <form onSubmit={handleSubmit} style={formStyle}>
+        <div className="order-modal" onClick={() => setShowForm(false)}>
+          <form className="order-form" onSubmit={handleSubmit} onClick={(e) => e.stopPropagation()}>
             <h2>Order Details</h2>
 
-            <input
-              type="text"
-              name='name'
-              placeholder='Full name'
-              value={orderData.name}
-              onChange={handleChange}
-              style={inputStyle}
-            />
-            <input
-              type="tel"
-              name='mobile'
-              placeholder='Mobile Number'
-              value={orderData.mobile}
-              onChange={handleChange}
-              style={inputStyle}
-            />
-            <input
-              type="text"
-              name="add"
-              placeholder='Delivery Address'
-              value={orderData.add}
-              onChange={handleChange}
-              style={inputStyle}
-            />
-            <input
-              type="text"
-              name="city"
-              placeholder='City'
-              value={orderData.city}
-              onChange={handleChange}
-              style={inputStyle}
-            />
-            <input
-              type="text"
-              name="state"
-              placeholder='State'
-              value={orderData.state}
-              onChange={handleChange}
-              style={inputStyle}
-            />
-            <input
-              type="text"
-              name="zip"
-              placeholder='Zip'
-              maxLength={6}
-              value={orderData.zip}
-              onChange={handleChange}
-              style={inputStyle}
-            />
+            <input type="text" name="name" placeholder="Full Name" value={orderData.name} onChange={handleChange} />
+            <input type="tel" name="mobile" placeholder="Mobile Number" value={orderData.mobile} onChange={handleChange} />
+            <input type="text" name="add" placeholder="Delivery Address" value={orderData.add} onChange={handleChange} />
+            <input type="text" name="city" placeholder="City" value={orderData.city} onChange={handleChange} />
+            <input type="text" name="state" placeholder="State" value={orderData.state} onChange={handleChange} />
+            <input type="text" name="zip" placeholder="Zip Code" maxLength={6} value={orderData.zip} onChange={handleChange} />
 
-            <div style={{ display: "flex", gap: "10px" }}>
-              <button type='submit'>Confirm Order</button>
-              <button type='button' onClick={() => setShowForm(false)}>Cancel</button>
+            <div className="form-actions">
+              <button type="submit">Confirm Order</button>
+              <button type="button" onClick={() => setShowForm(false)}>Cancel</button>
             </div>
           </form>
         </div>
       )}
+
     </section>
+    </>
   );
 };
 
 export default Cart;
-
-
-const modalStyle = {
-  position: "fixed",
-  top: 0,
-  left: 0,
-  width: "100%",
-  height: "100%",
-  background: "rgba(0,0,0,0.5)",
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center"
-
-}
-const formStyle = {
-  background: "#fff",
-  padding: "10px",
-  width: "500px"
-}
-
-const inputStyle = {
-  width: "90%",
-  padding: "9px",
-  marginBottom: "10px"
-}

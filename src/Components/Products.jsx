@@ -2,27 +2,9 @@ import React, { useEffect, useRef, useState } from 'react'
 import './CSS/Products.css'
 import ProductCard from '../Components/ProductCard'
 import { Link } from 'react-router-dom'
+import ProductSkelton from './ProductSkelton'
 
-const Products = () => {
-    const [products, setProducts] = useState([])
-    const [groupedProducts, setGroupedProducts] = useState({});
-
-    useEffect(() => {
-        fetch('/Products/products.json')
-            .then((res) => res.json())
-            .then((data) => {
-                // setProducts(data))
-                const grouped = data.reduce((acc, product) => {
-                    acc[product.category] = acc[product.category] || [];
-                    acc[product.category].push(product);
-                    return acc;
-                }, {});
-                setGroupedProducts(grouped);
-            });
-    }, [])
-
-
-
+const Products = ({groupedProducts,setGroupedProducts,loading}) => {
     return (
         <>
             {Object.entries(groupedProducts).map(([category, products]) => (
@@ -30,21 +12,16 @@ const Products = () => {
                     key={category}
                     title={category}
                     products={products}
+                    loading={loading}
                 />
             ))}
-
-            {/* <ProductSlider title="Dairy, Bread & Eggs" products={products} /> */}
-            {/* <ProductSlider title="Rolling paper & tobacco" products={products} />
-            <ProductSlider title="Snacks & Munchies" products={products} />
-            <ProductSlider title="Hookah" products={products} />
-            <ProductSlider title="Mouth fresheners" products={products} /> */}
         </>
     )
 }
 
 export default Products
 
-const ProductSlider = ({ title, products }) => {
+const ProductSlider = ({ title, products, loading }) => {
     const sliderRef = useRef(null);
     const slideLeft = () => {
         sliderRef.current.scrollLeft -= 250; // adjust scroll amount
@@ -56,15 +33,17 @@ const ProductSlider = ({ title, products }) => {
 
     return (
         <div className="products-section">
-            <h1 style={{ marginLeft: "20px" }}>{title}</h1>
+            <h1 style={{ padding: "20px" }}>{title}</h1>
 
             <div className="slider-container">
                 <button onClick={slideLeft} className="slider-btn"><i className="bi bi-caret-left-fill"></i></button>
 
                 <section id="products" ref={sliderRef}>
-                    {products.map((item) => (
+                   {loading?Array(6).fill().map((_,i)=><ProductSkelton key={i}/>):
+                    products.map((item) => (
                         <ProductCard key={item._id} product={item} />
-                    ))}
+                    ))
+                }
                 </section>
 
                 <button onClick={slideRight} className="slider-btn"><i className="bi bi-caret-right-fill"></i></button>

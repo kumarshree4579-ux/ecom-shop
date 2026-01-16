@@ -6,7 +6,6 @@ const Footer = () => {
     <footer className="footer-outer">
       <div className="footer-container">
 
-        {/* Useful Links */}
         <div className="footer-section">
           <h4>Useful Links</h4>
           <ul>
@@ -19,7 +18,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Partner Links */}
         <div className="footer-section">
           <ul className="footer-spaced">
             <li>Partner</li>
@@ -31,7 +29,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Recipes */}
         <div className="footer-section">
           <ul className="footer-spaced">
             <li>Recipes</li>
@@ -40,7 +37,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Categories */}
         <div className="footer-section footer-categories">
           <div className="categories-header">
             <h4>Categories</h4>
@@ -91,42 +87,39 @@ const Footer = () => {
 
       </div>
 
-      <div className="app-download">
-        <p><small>&copy; All Rights Reserved by Shree Kumar 2026 </small> </p>
+        <div className="app-download">
+          <p><small>&copy; All Rights Reserved by Shree Kumar 2026 </small> </p>
 
-        {/* Left */}
-        <div className="download-left">
-          <span className="download-text">Download App</span>
+          <div className="download-left">
+            <span className="download-text">Download App</span>
 
-          <div className="store-buttons">
-            <div className="store-btn">
-              <i className="bi bi-apple"></i>
-              <div>
-                <small>Download on the</small>
-                <strong>App Store</strong>
+            <div className="store-buttons">
+              <div className="store-btn">
+                <i className="bi bi-apple"></i>
+                <div>
+                  <small>Download on the</small>
+                  <strong>App Store</strong>
+                </div>
               </div>
-            </div>
 
-            <div className="store-btn">
-              <i className="bi bi-google-play"></i>
-              <div>
-                <small>Get it on</small>
-                <strong>Google Play</strong>
+              <div className="store-btn">
+                <i className="bi bi-google-play"></i>
+                <div>
+                  <small>Get it on</small>
+                  <strong>Google Play</strong>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        {/* Right */}
-        <div className="social-icons">
-          <i className="bi bi-facebook"></i>
-          <i className="bi bi-twitter-x"></i>
-          <i className="bi bi-instagram"></i>
-          <i className="bi bi-linkedin"></i>
-          <i className="bi bi-at"></i>
+          <div className="social-icons">
+            <i className="bi bi-facebook"></i>
+            <i className="bi bi-twitter-x"></i>
+            <i className="bi bi-instagram"></i>
+            <i className="bi bi-linkedin"></i>
+            <i className="bi bi-at"></i>
+          </div>
         </div>
-
-      </div>
       <p className="footer-bottom">
         EShop is owned and operated by Shree Kumar. Use of this website is subject to our Terms of Service and Privacy Policy.
         All content and services are governed by applicable laws of India and the United States, and protected under relevant intellectual property and data protection regulations.

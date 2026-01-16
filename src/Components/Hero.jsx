@@ -10,6 +10,7 @@ const Hero = () => {
             .then((res) => res.json())
             .then((data) => setCategory(data))
     }, [])
+    
     return (
         <section className='Hero'>
             
@@ -23,7 +24,6 @@ const Hero = () => {
             </div>
 
             <div className="hero-muti-img-grid">
-                {/* First row */}
                 <div className="slice">
                     {category.slice(0, 10).map((item, index) => (
                         <div className="slice-item" key={index}>
@@ -34,7 +34,6 @@ const Hero = () => {
                     ))}
                 </div>
 
-                {/* Second row */}
                 <div className="slice">
                     {category.slice(10, 20).map((item, index) => (
                         <div className="slice-item" key={index}>

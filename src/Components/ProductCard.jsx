@@ -2,7 +2,7 @@ import React from 'react'
 import './CSS/ProductCard.css'
 import { useCart } from '../Context/CartContext'
 const ProductCard = ({ product }) => {
-  const { cart, addToCart, IncreaseQty, DecreaseQty } = useCart();
+  const { cart, addToCart, IncreaseQty, DecreaseQty, removeItem } = useCart();
   const cartItem = cart.find(item => item._id === product._id);
 
   return (
@@ -25,16 +25,10 @@ const ProductCard = ({ product }) => {
             </>
           }
         </div>
-
-        {/* <div className="product-footer">
-          <button onClick={() => addToCart(product)} className="add-btn">Add To Cart</button>
-          <button className="add-btn">Buy Now</button>
-        </div> */}
-
         <div className="product-footer">
           {cartItem ? (
             <div className="qty-controller">
-              <button onClick={() => DecreaseQty(product._id)}>-</button>
+              {cartItem.qty <= 1 ? <button className="remove-item-btn" onClick={() => removeItem(product._id)}><i className="bi bi-trash"></i></button> : <button onClick={() => DecreaseQty(product._id)}>-</button>}
               <span>{cartItem.qty}</span>
               <button onClick={() => IncreaseQty(product._id)}>+</button>
             </div>

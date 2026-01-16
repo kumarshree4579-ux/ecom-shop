@@ -9,7 +9,6 @@
   transition: box-shadow 0.2s ease;
 }
 
-/* Quantity controller container */
 .qty-controller {
   display: flex;
   align-items: center;
@@ -19,7 +18,6 @@
   height: 28px;
 }
 
-/* - and + buttons */
 .qty-controller button {
   width: 28px;
   height: 100%;
@@ -39,7 +37,6 @@
   color: #fff;
 }
 
-/* Quantity number */
 .qty-controller span {
   width: 32px;
   text-align: center;
@@ -74,7 +71,6 @@
   margin: 2px 0 8px;
 }
 
-/* Price + ADD button row */
 .product-footer {
   display: flex;
   align-items: center;
@@ -111,21 +107,18 @@
   margin-bottom: 8px;
 }
 
-/* Selling price */
 .product-price {
   font-size: 15px;
   font-weight: 700;
   color: #111;
 }
 
-/* MRP (strikethrough) */
 .product-mrp {
   font-size: 12px;
   color: #888;
   text-decoration: line-through;
 }
 
-/* Discount badge */
 .product-discount {
   font-size: 11px;
   font-weight: 700;
