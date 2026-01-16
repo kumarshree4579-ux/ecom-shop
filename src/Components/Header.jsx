@@ -67,7 +67,7 @@ const Header = ({ search, setSearch, isSearchOpen, setIsSearchOpen }) => {
                     <button onClick={() => navigate("/cart")} className='btn-cart'> <i className="bi bi-cart4"></i> My Cart {totalItems}</button>
                 </div>
             </div>
-                <LoginForm/>
+                {/* <LoginForm/> */}
 
         </>
     )
