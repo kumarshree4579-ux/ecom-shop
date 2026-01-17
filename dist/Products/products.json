@@ -6,7 +6,7 @@
         "mrp": "35",
         "price": "32",
         "category": "Dairy, Bread & Eggs",
-        "image": "public/Images/milk.png"
+        "image": "Images/milk.png"
     },
     {
         "_id": "2",
@@ -15,7 +15,7 @@
         "mrp": "35",
         "price": "32",
         "category": "Dairy, Bread & Eggs",
-        "image": "public/Images/whey.png"
+        "image": "Images/whey.png"
     },
     {
         "_id": "3",
@@ -24,7 +24,7 @@
         "mrp": "58",
         "price": "54",
         "category": "Dairy, Bread & Eggs",
-        "image": "public/Images/butter.png"
+        "image": "Images/butter.png"
     },
     {
         "_id": "4",
@@ -33,7 +33,7 @@
         "mrp": "40",
         "price": "40",
         "category": "Dairy, Bread & Eggs",
-        "image": "public/Images/good-morning.png"
+        "image": "Images/good-morning.png"
     },
     {
         "_id": "5",
@@ -42,7 +42,7 @@
         "mrp": "29",
         "price": "29",
         "category": "Dairy, Bread & Eggs",
-        "image": "public/Images/amul-toned.png"
+        "image": "Images/amul-toned.png"
     },
     {
         "_id": "6",
@@ -51,7 +51,7 @@
         "mrp": "30",
         "price": "27",
         "category": "Dairy, Bread & Eggs",
-        "image": "public/Images/81136a7e-0681-4376-a109-92550ae66877.png"
+        "image": "Images/81136a7e-0681-4376-a109-92550ae66877.png"
     },
     {
         "_id": "7",
@@ -60,7 +60,7 @@
         "mrp": "30",
         "price": "32",
         "category": "Dairy, Bread & Eggs",
-        "image": "public/Images/ae29e828-f5d9-4f8b-89b6-8c6d6919df7b.png"
+        "image": "Images/ae29e828-f5d9-4f8b-89b6-8c6d6919df7b.png"
     },
     {
         "_id": "8",
@@ -69,7 +69,7 @@
         "mrp": "40",
         "price": "40",
         "category": "Dairy, Bread & Eggs",
-        "image": "public/Images/a858c12c-b0d7-408f-811c-52ed8c9b7223.png"
+        "image": "Images/a858c12c-b0d7-408f-811c-52ed8c9b7223.png"
     },
     {
         "_id": "9",
@@ -78,7 +78,7 @@
         "mrp": "120",
         "price": "120",
         "category": "Dairy, Bread & Eggs",
-        "image": "public/Images/e47341cd-d920-4c0a-a9f2-20d663976cd0.png"
+        "image": "Images/e47341cd-d920-4c0a-a9f2-20d663976cd0.png"
     },
     {
         "_id": "10",
@@ -87,7 +87,7 @@
         "mrp": "35",
         "price": "32",
         "category": "Dairy, Bread & Eggs",
-        "image": "public/Images/dfa345bf-052e-4657-ae4f-859bfe45fecf.png"
+        "image": "Images/dfa345bf-052e-4657-ae4f-859bfe45fecf.png"
     },
     {
         "_id": "11",
@@ -96,7 +96,7 @@
         "mrp": "119",
         "price": "118",
         "category": "Dairy, Bread & Eggs",
-        "image": "public/Images/03af3633-5fa5-438f-bece-145ed114d279.png"
+        "image": "Images/03af3633-5fa5-438f-bece-145ed114d279.png"
     },
     {
         "_id": "12",
@@ -105,7 +105,7 @@
         "mrp": "140",
         "price": "140",
         "category": "Dairy, Bread & Eggs",
-        "image": "public/Images/a501e65f-194b-4db2-abc9-6b7bb515349c.png"
+        "image": "Images/a501e65f-194b-4db2-abc9-6b7bb515349c.png"
     },
     {
         "_id": "13",
@@ -114,7 +114,7 @@
         "mrp": "77",
         "price": "77",
         "category": "Dairy, Bread & Eggs",
-        "image": "public/Images/e7023096-622d-4e2e-9c2c-a7689262c36f.png"
+        "image": "Images/e7023096-622d-4e2e-9c2c-a7689262c36f.png"
     },
     {
         "_id": "14",
@@ -123,7 +123,7 @@
         "mrp": "40",
         "price": "40",
         "category": "Dairy, Bread & Eggs",
-        "image": "public/Images/d619dafc-96bc-4bd2-8e5b-f7f80c963431.png"
+        "image": "Images/d619dafc-96bc-4bd2-8e5b-f7f80c963431.png"
     },
     {
         "_id": "15",
@@ -132,7 +132,7 @@
         "mrp": "35",
         "price": "35",
         "category": "Dairy, Bread & Eggs",
-        "image": "public/Images/146862af-0a7d-443b-833b-afe237114f86.png"
+        "image": "Images/146862af-0a7d-443b-833b-afe237114f86.png"
     },
     {
         "_id": "16",
@@ -141,7 +141,7 @@
         "mrp": "50",
         "price": "49",
         "category": "Rolling paper & tobacco",
-        "image": "public/Images/7006c28c-1ebd-4a7e-91ce-4d1c88593404.jpg"
+        "image": "Images/7006c28c-1ebd-4a7e-91ce-4d1c88593404.jpg"
     },
     {
         "_id": "17",
@@ -150,7 +150,7 @@
         "mrp": "45",
         "price": "45",
         "category": "Rolling paper & tobacco",
-        "image": "public/Images/62a43114-df35-461b-80a4-83c5544fde66.png"
+        "image": "Images/62a43114-df35-461b-80a4-83c5544fde66.png"
     },
     {
         "_id": "18",
@@ -159,7 +159,7 @@
         "mrp": "25",
         "price": "25",
         "category": "Rolling paper & tobacco",
-        "image": "public/Images/8d385b40-e78b-434a-962d-50ba667891bf.png"
+        "image": "Images/8d385b40-e78b-434a-962d-50ba667891bf.png"
     },
     {
         "_id": "19",
@@ -168,7 +168,7 @@
         "mrp": "80",
         "price": "80",
         "category": "Rolling paper & tobacco",
-        "image": "public/Images/2a6eb6af-8143-4195-a788-c350255a8e1e.png"
+        "image": "Images/2a6eb6af-8143-4195-a788-c350255a8e1e.png"
     },
     {
         "_id": "20",
@@ -177,7 +177,7 @@
         "mrp": "80",
         "price": "79",
         "category": "Rolling paper & tobacco",
-        "image": "public/Images/amul-toned.png"
+        "image": "Images/amul-toned.png"
     },
     {
         "_id": "6",
@@ -186,7 +186,7 @@
         "mrp": "30",
         "price": "27",
         "category": "Rolling paper & tobacco",
-        "image": "public/Images/81136a7e-0681-4376-a109-92550ae66877.png"
+        "image": "Images/81136a7e-0681-4376-a109-92550ae66877.png"
     },
     {
         "_id": "7",
@@ -195,7 +195,7 @@
         "mrp": "30",
         "price": "32",
         "category": "Rolling paper & tobacco",
-        "image": "public/Images/ae29e828-f5d9-4f8b-89b6-8c6d6919df7b.png"
+        "image": "Images/ae29e828-f5d9-4f8b-89b6-8c6d6919df7b.png"
     },
     {
         "_id": "8",
@@ -204,7 +204,7 @@
         "mrp": "40",
         "price": "40",
         "category": "Rolling paper & tobacco",
-        "image": "public/Images/a858c12c-b0d7-408f-811c-52ed8c9b7223.png"
+        "image": "Images/a858c12c-b0d7-408f-811c-52ed8c9b7223.png"
     },
     {
         "_id": "9",
@@ -213,7 +213,7 @@
         "mrp": "120",
         "price": "120",
         "category": "Rolling paper & tobacco",
-        "image": "public/Images/e47341cd-d920-4c0a-a9f2-20d663976cd0.png"
+        "image": "Images/e47341cd-d920-4c0a-a9f2-20d663976cd0.png"
     },
     {
         "_id": "10",
@@ -222,7 +222,7 @@
         "mrp": "35",
         "price": "32",
         "category": "Rolling paper & tobacco",
-        "image": "public/Images/dfa345bf-052e-4657-ae4f-859bfe45fecf.png"
+        "image": "Images/dfa345bf-052e-4657-ae4f-859bfe45fecf.png"
     },
     {
         "_id": "11",
@@ -231,7 +231,7 @@
         "mrp": "119",
         "price": "118",
         "category": "Rolling paper & tobacco",
-        "image": "public/Images/03af3633-5fa5-438f-bece-145ed114d279.png"
+        "image": "Images/03af3633-5fa5-438f-bece-145ed114d279.png"
     },
     {
         "_id": "12",
@@ -240,7 +240,7 @@
         "mrp": "140",
         "price": "140",
         "category": "Rolling paper & tobacco",
-        "image": "public/Images/a501e65f-194b-4db2-abc9-6b7bb515349c.png"
+        "image": "Images/a501e65f-194b-4db2-abc9-6b7bb515349c.png"
     },
     {
         "_id": "13",
@@ -249,7 +249,7 @@
         "mrp": "77",
         "price": "77",
         "category": "Rolling paper & tobacco",
-        "image": "public/Images/e7023096-622d-4e2e-9c2c-a7689262c36f.png"
+        "image": "Images/e7023096-622d-4e2e-9c2c-a7689262c36f.png"
     },
     {
         "_id": "14",
@@ -258,7 +258,7 @@
         "mrp": "40",
         "price": "40",
         "category": "Rolling paper & tobacco",
-        "image": "public/Images/d619dafc-96bc-4bd2-8e5b-f7f80c963431.png"
+        "image": "Images/d619dafc-96bc-4bd2-8e5b-f7f80c963431.png"
     },
     {
         "_id": "15",
@@ -267,7 +267,7 @@
         "mrp": "35",
         "price": "35",
         "category": "Rolling paper & tobacco",
-        "image": "public/Images/146862af-0a7d-443b-833b-afe237114f86.png"
+        "image": "Images/146862af-0a7d-443b-833b-afe237114f86.png"
     },
     {
         "_id": "1",
@@ -276,7 +276,7 @@
         "mrp": "35",
         "price": "32",
         "category": "Snacks & Munchies",
-        "image": "public/Images/milk.png"
+        "image": "Images/milk.png"
     },
     {
         "_id": "2",
@@ -285,7 +285,7 @@
         "mrp": "35",
         "price": "32",
         "category": "Snacks & Munchies",
-        "image": "public/Images/whey.png"
+        "image": "Images/whey.png"
     },
     {
         "_id": "3",
@@ -294,7 +294,7 @@
         "mrp": "58",
         "price": "54",
         "category": "Snacks & Munchies",
-        "image": "public/Images/butter.png"
+        "image": "Images/butter.png"
     },
     {
         "_id": "4",
@@ -303,7 +303,7 @@
         "mrp": "40",
         "price": "40",
         "category": "Snacks & Munchies",
-        "image": "public/Images/good-morning.png"
+        "image": "Images/good-morning.png"
     },
     {
         "_id": "5",
@@ -312,7 +312,7 @@
         "mrp": "29",
         "price": "29",
         "category": "Snacks & Munchies",
-        "image": "public/Images/amul-toned.png"
+        "image": "Images/amul-toned.png"
     },
     {
         "_id": "6",
@@ -321,7 +321,7 @@
         "mrp": "30",
         "price": "27",
         "category": "Snacks & Munchies",
-        "image": "public/Images/81136a7e-0681-4376-a109-92550ae66877.png"
+        "image": "Images/81136a7e-0681-4376-a109-92550ae66877.png"
     },
     {
         "_id": "7",
@@ -330,7 +330,7 @@
         "mrp": "30",
         "price": "32",
         "category": "Snacks & Munchies",
-        "image": "public/Images/ae29e828-f5d9-4f8b-89b6-8c6d6919df7b.png"
+        "image": "Images/ae29e828-f5d9-4f8b-89b6-8c6d6919df7b.png"
     },
     {
         "_id": "8",
@@ -339,7 +339,7 @@
         "mrp": "40",
         "price": "40",
         "category": "Snacks & Munchies",
-        "image": "public/Images/a858c12c-b0d7-408f-811c-52ed8c9b7223.png"
+        "image": "Images/a858c12c-b0d7-408f-811c-52ed8c9b7223.png"
     },
     {
         "_id": "9",
@@ -348,7 +348,7 @@
         "mrp": "120",
         "price": "120",
         "category": "Snacks & Munchies",
-        "image": "public/Images/e47341cd-d920-4c0a-a9f2-20d663976cd0.png"
+        "image": "Images/e47341cd-d920-4c0a-a9f2-20d663976cd0.png"
     },
     {
         "_id": "10",
@@ -357,7 +357,7 @@
         "mrp": "35",
         "price": "32",
         "category": "Snacks & Munchies",
-        "image": "public/Images/dfa345bf-052e-4657-ae4f-859bfe45fecf.png"
+        "image": "Images/dfa345bf-052e-4657-ae4f-859bfe45fecf.png"
     },
     {
         "_id": "11",
@@ -366,7 +366,7 @@
         "mrp": "119",
         "price": "118",
         "category": "Snacks & Munchies",
-        "image": "public/Images/03af3633-5fa5-438f-bece-145ed114d279.png"
+        "image": "Images/03af3633-5fa5-438f-bece-145ed114d279.png"
     },
     {
         "_id": "12",
@@ -375,7 +375,7 @@
         "mrp": "140",
         "price": "140",
         "category": "Snacks & Munchies",
-        "image": "public/Images/a501e65f-194b-4db2-abc9-6b7bb515349c.png"
+        "image": "Images/a501e65f-194b-4db2-abc9-6b7bb515349c.png"
     },
     {
         "_id": "13",
@@ -384,7 +384,7 @@
         "mrp": "77",
         "price": "77",
         "category": "Snacks & Munchies",
-        "image": "public/Images/e7023096-622d-4e2e-9c2c-a7689262c36f.png"
+        "image": "Images/e7023096-622d-4e2e-9c2c-a7689262c36f.png"
     },
     {
         "_id": "14",
@@ -393,7 +393,7 @@
         "mrp": "40",
         "price": "40",
         "category": "Snacks & Munchies",
-        "image": "public/Images/d619dafc-96bc-4bd2-8e5b-f7f80c963431.png"
+        "image": "Images/d619dafc-96bc-4bd2-8e5b-f7f80c963431.png"
     },
     {
         "_id": "15",
@@ -402,7 +402,7 @@
         "mrp": "35",
         "price": "35",
         "category": "Snacks & Munchies",
-        "image": "public/Images/146862af-0a7d-443b-833b-afe237114f86.png"
+        "image": "Images/146862af-0a7d-443b-833b-afe237114f86.png"
     },
     {
         "_id": "1",
@@ -411,7 +411,7 @@
         "mrp": "35",
         "price": "32",
         "category": "Hookah",
-        "image": "public/Images/milk.png"
+        "image": "Images/milk.png"
     },
     {
         "_id": "2",
@@ -420,7 +420,7 @@
         "mrp": "35",
         "price": "32",
         "category": "Hookah",
-        "image": "public/Images/whey.png"
+        "image": "Images/whey.png"
     },
     {
         "_id": "3",
@@ -429,7 +429,7 @@
         "mrp": "58",
         "price": "54",
         "category": "Hookah",
-        "image": "public/Images/butter.png"
+        "image": "Images/butter.png"
     },
     {
         "_id": "4",
@@ -438,7 +438,7 @@
         "mrp": "40",
         "price": "40",
         "category": "Hookah",
-        "image": "public/Images/good-morning.png"
+        "image": "Images/good-morning.png"
     },
     {
         "_id": "5",
@@ -447,7 +447,7 @@
         "mrp": "29",
         "price": "29",
         "category": "Hookah",
-        "image": "public/Images/amul-toned.png"
+        "image": "Images/amul-toned.png"
     },
     {
         "_id": "6",
@@ -456,7 +456,7 @@
         "mrp": "30",
         "price": "27",
         "category": "Hookah",
-        "image": "public/Images/81136a7e-0681-4376-a109-92550ae66877.png"
+        "image": "Images/81136a7e-0681-4376-a109-92550ae66877.png"
     },
     {
         "_id": "7",
@@ -465,7 +465,7 @@
         "mrp": "30",
         "price": "32",
         "category": "Hookah",
-        "image": "public/Images/ae29e828-f5d9-4f8b-89b6-8c6d6919df7b.png"
+        "image": "Images/ae29e828-f5d9-4f8b-89b6-8c6d6919df7b.png"
     },
     {
         "_id": "8",
@@ -474,7 +474,7 @@
         "mrp": "40",
         "price": "40",
         "category": "Hookah",
-        "image": "public/Images/a858c12c-b0d7-408f-811c-52ed8c9b7223.png"
+        "image": "Images/a858c12c-b0d7-408f-811c-52ed8c9b7223.png"
     },
     {
         "_id": "9",
@@ -483,7 +483,7 @@
         "mrp": "120",
         "price": "120",
         "category": "Hookah",
-        "image": "public/Images/e47341cd-d920-4c0a-a9f2-20d663976cd0.png"
+        "image": "Images/e47341cd-d920-4c0a-a9f2-20d663976cd0.png"
     },
     {
         "_id": "10",
@@ -492,7 +492,7 @@
         "mrp": "35",
         "price": "32",
         "category": "Hookah",
-        "image": "public/Images/dfa345bf-052e-4657-ae4f-859bfe45fecf.png"
+        "image": "Images/dfa345bf-052e-4657-ae4f-859bfe45fecf.png"
     },
     {
         "_id": "11",
@@ -501,7 +501,7 @@
         "mrp": "119",
         "price": "118",
         "category": "Hookah",
-        "image": "public/Images/03af3633-5fa5-438f-bece-145ed114d279.png"
+        "image": "Images/03af3633-5fa5-438f-bece-145ed114d279.png"
     },
     {
         "_id": "12",
@@ -510,7 +510,7 @@
         "mrp": "140",
         "price": "140",
         "category": "Hookah",
-        "image": "public/Images/a501e65f-194b-4db2-abc9-6b7bb515349c.png"
+        "image": "Images/a501e65f-194b-4db2-abc9-6b7bb515349c.png"
     },
     {
         "_id": "13",
@@ -519,7 +519,7 @@
         "mrp": "77",
         "price": "77",
         "category": "Hookah",
-        "image": "public/Images/e7023096-622d-4e2e-9c2c-a7689262c36f.png"
+        "image": "Images/e7023096-622d-4e2e-9c2c-a7689262c36f.png"
     },
     {
         "_id": "14",
@@ -528,7 +528,7 @@
         "mrp": "40",
         "price": "40",
         "category": "Hookah",
-        "image": "public/Images/d619dafc-96bc-4bd2-8e5b-f7f80c963431.png"
+        "image": "Images/d619dafc-96bc-4bd2-8e5b-f7f80c963431.png"
     },
     {
         "_id": "15",
@@ -537,7 +537,7 @@
         "mrp": "35",
         "price": "35",
         "category": "Hookah",
-        "image": "public/Images/146862af-0a7d-443b-833b-afe237114f86.png"
+        "image": "Images/146862af-0a7d-443b-833b-afe237114f86.png"
     },
     {
         "_id": "1",
@@ -546,7 +546,7 @@
         "mrp": "35",
         "price": "32",
         "category": "Mouth fresheners",
-        "image": "public/Images/milk.png"
+        "image": "Images/milk.png"
     },
     {
         "_id": "2",
@@ -555,7 +555,7 @@
         "mrp": "35",
         "price": "32",
         "category": "Mouth fresheners",
-        "image": "public/Images/whey.png"
+        "image": "Images/whey.png"
     },
     {
         "_id": "3",
@@ -564,7 +564,7 @@
         "mrp": "58",
         "price": "54",
         "category": "Mouth fresheners",
-        "image": "public/Images/butter.png"
+        "image": "Images/butter.png"
     },
     {
         "_id": "4",
@@ -573,7 +573,7 @@
         "mrp": "40",
         "price": "40",
         "category": "Mouth fresheners",
-        "image": "public/Images/good-morning.png"
+        "image": "Images/good-morning.png"
     },
     {
         "_id": "5",
@@ -582,7 +582,7 @@
         "mrp": "29",
         "price": "29",
         "category": "Mouth fresheners",
-        "image": "public/Images/amul-toned.png"
+        "image": "Images/amul-toned.png"
     },
     {
         "_id": "6",
@@ -591,7 +591,7 @@
         "mrp": "30",
         "price": "27",
         "category": "Mouth fresheners",
-        "image": "public/Images/81136a7e-0681-4376-a109-92550ae66877.png"
+        "image": "Images/81136a7e-0681-4376-a109-92550ae66877.png"
     },
     {
         "_id": "7",
@@ -600,7 +600,7 @@
         "mrp": "30",
         "price": "32",
         "category": "Mouth fresheners",
-        "image": "public/Images/ae29e828-f5d9-4f8b-89b6-8c6d6919df7b.png"
+        "image": "Images/ae29e828-f5d9-4f8b-89b6-8c6d6919df7b.png"
     },
     {
         "_id": "8",
@@ -609,7 +609,7 @@
         "mrp": "40",
         "price": "40",
         "category": "Mouth fresheners",
-        "image": "public/Images/a858c12c-b0d7-408f-811c-52ed8c9b7223.png"
+        "image": "Images/a858c12c-b0d7-408f-811c-52ed8c9b7223.png"
     },
     {
         "_id": "9",
@@ -618,7 +618,7 @@
         "mrp": "120",
         "price": "120",
         "category": "Mouth fresheners",
-        "image": "public/Images/e47341cd-d920-4c0a-a9f2-20d663976cd0.png"
+        "image": "Images/e47341cd-d920-4c0a-a9f2-20d663976cd0.png"
     },
     {
         "_id": "10",
@@ -627,7 +627,7 @@
         "mrp": "35",
         "price": "32",
         "category": "Mouth fresheners",
-        "image": "public/Images/dfa345bf-052e-4657-ae4f-859bfe45fecf.png"
+        "image": "Images/dfa345bf-052e-4657-ae4f-859bfe45fecf.png"
     },
     {
         "_id": "11",
@@ -636,7 +636,7 @@
         "mrp": "119",
         "price": "118",
         "category": "Mouth fresheners",
-        "image": "public/Images/03af3633-5fa5-438f-bece-145ed114d279.png"
+        "image": "Images/03af3633-5fa5-438f-bece-145ed114d279.png"
     },
     {
         "_id": "12",
@@ -645,7 +645,7 @@
         "mrp": "140",
         "price": "140",
         "category": "Mouth fresheners",
-        "image": "public/Images/a501e65f-194b-4db2-abc9-6b7bb515349c.png"
+        "image": "Images/a501e65f-194b-4db2-abc9-6b7bb515349c.png"
     },
     {
         "_id": "13",
@@ -654,7 +654,7 @@
         "mrp": "77",
         "price": "77",
         "category": "Mouth fresheners",
-        "image": "public/Images/e7023096-622d-4e2e-9c2c-a7689262c36f.png"
+        "image": "Images/e7023096-622d-4e2e-9c2c-a7689262c36f.png"
     },
     {
         "_id": "14",
@@ -663,7 +663,7 @@
         "mrp": "40",
         "price": "40",
         "category": "Mouth fresheners",
-        "image": "public/Images/d619dafc-96bc-4bd2-8e5b-f7f80c963431.png"
+        "image": "Images/d619dafc-96bc-4bd2-8e5b-f7f80c963431.png"
     },
     {
         "_id": "15",
@@ -672,7 +672,7 @@
         "mrp": "35",
         "price": "35",
         "category": "Mouth fresheners",
-        "image": "public/Images/146862af-0a7d-443b-833b-afe237114f86.png"
+        "image": "Images/146862af-0a7d-443b-833b-afe237114f86.png"
     },
     {
         "_id": "1",
@@ -681,7 +681,7 @@
         "mrp": "35",
         "price": "32",
         "category": "Cold Drinks & Juices",
-        "image": "public/Images/milk.png"
+        "image": "Images/milk.png"
     },
     {
         "_id": "2",
@@ -690,7 +690,7 @@
         "mrp": "35",
         "price": "32",
         "category": "Cold Drinks & Juices",
-        "image": "public/Images/whey.png"
+        "image": "Images/whey.png"
     },
     {
         "_id": "3",
@@ -699,7 +699,7 @@
         "mrp": "58",
         "price": "54",
         "category": "Cold Drinks & Juices",
-        "image": "public/Images/butter.png"
+        "image": "Images/butter.png"
     },
     {
         "_id": "4",
@@ -708,7 +708,7 @@
         "mrp": "40",
         "price": "40",
         "category": "Cold Drinks & Juices",
-        "image": "public/Images/good-morning.png"
+        "image": "Images/good-morning.png"
     },
     {
         "_id": "5",
@@ -717,7 +717,7 @@
         "mrp": "29",
         "price": "29",
         "category": "Cold Drinks & Juices",
-        "image": "public/Images/amul-toned.png"
+        "image": "Images/amul-toned.png"
     },
     {
         "_id": "6",
@@ -726,7 +726,7 @@
         "mrp": "30",
         "price": "27",
         "category": "Cold Drinks & Juices",
-        "image": "public/Images/81136a7e-0681-4376-a109-92550ae66877.png"
+        "image": "Images/81136a7e-0681-4376-a109-92550ae66877.png"
     },
     {
         "_id": "7",
@@ -735,7 +735,7 @@
         "mrp": "30",
         "price": "32",
         "category": "Cold Drinks & Juices",
-        "image": "public/Images/ae29e828-f5d9-4f8b-89b6-8c6d6919df7b.png"
+        "image": "Images/ae29e828-f5d9-4f8b-89b6-8c6d6919df7b.png"
     },
     {
         "_id": "8",
@@ -744,7 +744,7 @@
         "mrp": "40",
         "price": "40",
         "category": "Cold Drinks & Juices",
-        "image": "public/Images/a858c12c-b0d7-408f-811c-52ed8c9b7223.png"
+        "image": "Images/a858c12c-b0d7-408f-811c-52ed8c9b7223.png"
     },
     {
         "_id": "9",
@@ -753,7 +753,7 @@
         "mrp": "120",
         "price": "120",
         "category": "Cold Drinks & Juices",
-        "image": "public/Images/e47341cd-d920-4c0a-a9f2-20d663976cd0.png"
+        "image": "Images/e47341cd-d920-4c0a-a9f2-20d663976cd0.png"
     },
     {
         "_id": "10",
@@ -762,7 +762,7 @@
         "mrp": "35",
         "price": "32",
         "category": "Cold Drinks & Juices",
-        "image": "public/Images/dfa345bf-052e-4657-ae4f-859bfe45fecf.png"
+        "image": "Images/dfa345bf-052e-4657-ae4f-859bfe45fecf.png"
     },
     {
         "_id": "11",
@@ -771,7 +771,7 @@
         "mrp": "119",
         "price": "118",
         "category": "Cold Drinks & Juices",
-        "image": "public/Images/03af3633-5fa5-438f-bece-145ed114d279.png"
+        "image": "Images/03af3633-5fa5-438f-bece-145ed114d279.png"
     },
     {
         "_id": "12",
@@ -780,7 +780,7 @@
         "mrp": "140",
         "price": "140",
         "category": "Cold Drinks & Juices",
-        "image": "public/Images/a501e65f-194b-4db2-abc9-6b7bb515349c.png"
+        "image": "Images/a501e65f-194b-4db2-abc9-6b7bb515349c.png"
     },
     {
         "_id": "13",
@@ -789,7 +789,7 @@
         "mrp": "77",
         "price": "77",
         "category": "Cold Drinks & Juices",
-        "image": "public/Images/e7023096-622d-4e2e-9c2c-a7689262c36f.png"
+        "image": "Images/e7023096-622d-4e2e-9c2c-a7689262c36f.png"
     },
     {
         "_id": "14",
@@ -798,7 +798,7 @@
         "mrp": "40",
         "price": "40",
         "category": "Cold Drinks & Juices",
-        "image": "public/Images/d619dafc-96bc-4bd2-8e5b-f7f80c963431.png"
+        "image": "Images/d619dafc-96bc-4bd2-8e5b-f7f80c963431.png"
     },
     {
         "_id": "15",
@@ -807,7 +807,7 @@
         "mrp": "35",
         "price": "35",
         "category": "Cold Drinks & Juices",
-        "image": "public/Images/146862af-0a7d-443b-833b-afe237114f86.png"
+        "image": "Images/146862af-0a7d-443b-833b-afe237114f86.png"
     },
     {
         "_id": "1",
@@ -816,7 +816,7 @@
         "mrp": "35",
         "price": "32",
         "category": "Candies & Gums",
-        "image": "public/Images/milk.png"
+        "image": "Images/milk.png"
     },
     {
         "_id": "2",
@@ -825,7 +825,7 @@
         "mrp": "35",
         "price": "32",
         "category": "Candies & Gums",
-        "image": "public/Images/whey.png"
+        "image": "Images/whey.png"
     },
     {
         "_id": "3",
@@ -834,7 +834,7 @@
         "mrp": "58",
         "price": "54",
         "category": "Candies & Gums",
-        "image": "public/Images/butter.png"
+        "image": "Images/butter.png"
     },
     {
         "_id": "4",
@@ -843,7 +843,7 @@
         "mrp": "40",
         "price": "40",
         "category": "Candies & Gums",
-        "image": "public/Images/good-morning.png"
+        "image": "Images/good-morning.png"
     },
     {
         "_id": "5",
@@ -852,7 +852,7 @@
         "mrp": "29",
         "price": "29",
         "category": "Candies & Gums",
-        "image": "public/Images/amul-toned.png"
+        "image": "Images/amul-toned.png"
     },
     {
         "_id": "6",
@@ -861,7 +861,7 @@
         "mrp": "30",
         "price": "27",
         "category": "Candies & Gums",
-        "image": "public/Images/81136a7e-0681-4376-a109-92550ae66877.png"
+        "image": "Images/81136a7e-0681-4376-a109-92550ae66877.png"
     },
     {
         "_id": "7",
@@ -870,7 +870,7 @@
         "mrp": "30",
         "price": "32",
         "category": "Candies & Gums",
-        "image": "public/Images/ae29e828-f5d9-4f8b-89b6-8c6d6919df7b.png"
+        "image": "Images/ae29e828-f5d9-4f8b-89b6-8c6d6919df7b.png"
     },
     {
         "_id": "8",
@@ -879,7 +879,7 @@
         "mrp": "40",
         "price": "40",
         "category": "Candies & Gums",
-        "image": "public/Images/a858c12c-b0d7-408f-811c-52ed8c9b7223.png"
+        "image": "Images/a858c12c-b0d7-408f-811c-52ed8c9b7223.png"
     },
     {
         "_id": "9",
@@ -888,7 +888,7 @@
         "mrp": "120",
         "price": "120",
         "category": "Candies & Gums",
-        "image": "public/Images/e47341cd-d920-4c0a-a9f2-20d663976cd0.png"
+        "image": "Images/e47341cd-d920-4c0a-a9f2-20d663976cd0.png"
     },
     {
         "_id": "10",
@@ -897,7 +897,7 @@
         "mrp": "35",
         "price": "32",
         "category": "Candies & Gums",
-        "image": "public/Images/dfa345bf-052e-4657-ae4f-859bfe45fecf.png"
+        "image": "Images/dfa345bf-052e-4657-ae4f-859bfe45fecf.png"
     },
     {
         "_id": "11",
@@ -906,7 +906,7 @@
         "mrp": "119",
         "price": "118",
         "category": "Candies & Gums",
-        "image": "public/Images/03af3633-5fa5-438f-bece-145ed114d279.png"
+        "image": "Images/03af3633-5fa5-438f-bece-145ed114d279.png"
     },
     {
         "_id": "12",
@@ -915,7 +915,7 @@
         "mrp": "140",
         "price": "140",
         "category": "Candies & Gums",
-        "image": "public/Images/a501e65f-194b-4db2-abc9-6b7bb515349c.png"
+        "image": "Images/a501e65f-194b-4db2-abc9-6b7bb515349c.png"
     },
     {
         "_id": "13",
@@ -924,7 +924,7 @@
         "mrp": "77",
         "price": "77",
         "category": "Candies & Gums",
-        "image": "public/Images/e7023096-622d-4e2e-9c2c-a7689262c36f.png"
+        "image": "Images/e7023096-622d-4e2e-9c2c-a7689262c36f.png"
     },
     {
         "_id": "14",
@@ -933,7 +933,7 @@
         "mrp": "40",
         "price": "40",
         "category": "Candies & Gums",
-        "image": "public/Images/d619dafc-96bc-4bd2-8e5b-f7f80c963431.png"
+        "image": "Images/d619dafc-96bc-4bd2-8e5b-f7f80c963431.png"
     },
     {
         "_id": "15",
@@ -942,6 +942,6 @@
         "mrp": "35",
         "price": "35",
         "category": "Candies & Gums",
-        "image": "public/Images/146862af-0a7d-443b-833b-afe237114f86.png"
+        "image": "Images/146862af-0a7d-443b-833b-afe237114f86.png"
     }
 ]

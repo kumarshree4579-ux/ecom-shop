@@ -15,12 +15,12 @@ const Hero = () => {
         <section className='Hero'>
             
             <div id='banner'>
-                <img src="public/Images/banner1.jpg" alt="" />
+                <img src="Images/banner1.jpg" alt="" />
             </div>
             <div className="hero-sale">
-                <img src="public/Images/pharmacy-WEB.jpg" alt="" />
-                <img src="public/Images/Pet-Care_WEB.jpg" alt="" />
-                <img src="public/Images/babycare-WEB.jpg" alt="" />
+                <img src="Images/pharmacy-WEB.jpg" alt="" />
+                <img src="Images/Pet-Care_WEB.jpg" alt="" />
+                <img src="Images/babycare-WEB.jpg" alt="" />
             </div>
 
             <div className="hero-muti-img-grid">
