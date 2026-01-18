@@ -4,24 +4,8 @@ import ProductCard from '../Components/ProductCard'
 import { Link } from 'react-router-dom'
 import ProductSkelton from './ProductSkelton'
 
-const Products = ({groupedProducts,setGroupedProducts,loading}) => {
-    return (
-        <>
-            {Object.entries(groupedProducts).map(([category, products]) => (
-                <ProductSlider
-                    key={category}
-                    title={category}
-                    products={products}
-                    loading={loading}
-                />
-            ))}
-        </>
-    )
-}
-
-export default Products
-
-const ProductSlider = ({ title, products, loading }) => {
+const Products = ({ category, products, groupedProducts, setGroupedProducts, loading }) => {
+    console.log("category from Products.jsx:", category);
     const sliderRef = useRef(null);
     const slideLeft = () => {
         sliderRef.current.scrollLeft -= 250; // adjust scroll amount
@@ -31,24 +15,34 @@ const ProductSlider = ({ title, products, loading }) => {
         sliderRef.current.scrollLeft += 250;
     };
 
+
     return (
-        <div className="products-section">
-            <h1 style={{ padding: "20px" }}>{title}</h1>
+        <>
 
-            <div className="slider-container">
-                <button onClick={slideLeft} className="slider-btn"><i className="bi bi-caret-left-fill"></i></button>
+            {category.map((cat) =>
+                <div className="products-section" key={cat._id}>
+                    <h1 style={{ padding: "20px" }} >{cat.categoryName}</h1>
+                    <div className="slider-container">
+                        <button onClick={slideLeft} className="slider-btn"><i className="bi bi-caret-left-fill"></i></button>
 
-                <section id="products" ref={sliderRef}>
-                   {loading?Array(6).fill().map((_,i)=><ProductSkelton key={i}/>):
-                    products.map((item) => (
-                        <ProductCard key={item._id} product={item} />
-                    ))
-                }
-                </section>
+                        <section id="products" ref={sliderRef}>
+                            {loading ? Array(6).fill().map((_, i) => <ProductSkelton key={i} />) :
+                                products.filter(products => products.category === cat._id)
+                                    .map((product, i) => (
+                                        <ProductCard key={product._id} product={product} />
+                                    ))
+                            }
+                        </section>
 
-                <button onClick={slideRight} className="slider-btn"><i className="bi bi-caret-right-fill"></i></button>
-            </div>
-        </div>
-    );
+                        <button onClick={slideRight} className="slider-btn"><i className="bi bi-caret-right-fill"></i></button>
+                    </div>
 
-};
+
+
+                </div>
+            )}
+        </>
+    )
+}
+
+export default Products

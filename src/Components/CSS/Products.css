@@ -41,6 +41,7 @@
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
 }
+
 .slider-btn:first-of-type {
     left: 10px;
 }
@@ -64,5 +65,19 @@
 
     .slider-btn {
         display: none;
+    }
+
+    .products-section {
+        padding: 10px;
+    }
+
+    .products-section h1 {
+        font-size: 1.2rem;
+        padding: 10px 5px;
+    }
+
+    #products {
+        padding: 10px 5px;
+        gap: 10px;
     }
 }

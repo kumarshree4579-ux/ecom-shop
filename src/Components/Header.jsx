@@ -7,6 +7,7 @@ const Header = ({ search, setSearch, isSearchOpen, setIsSearchOpen }) => {
     const { cart } = useCart();
     const navigate = useNavigate();
     const [isFocused ,setIsFocused] = useState(false)
+    const [isLoginFormOpen,setIsLoginFormOpen]= useState(false);
     const placeHolder=[
                 "Search anything and get in 10 minutes",
                 "Search Breads",
@@ -40,8 +41,8 @@ const Header = ({ search, setSearch, isSearchOpen, setIsSearchOpen }) => {
                         <span>B-36 2nd floor Aliganj Lucknow <i onClick={() => { alert("Location detected") }} className="bi bi-caret-down-fill header-location-btn"></i></span>
 
                     </div>
-                    <div className="header-profile">
-                        <h1><i onClick={() => { alert("Profile clicked") }} className="bi bi-person-circle header-location-btn"></i></h1>
+                    <div className="header-profile" onClick={()=>{setIsLoginFormOpen(true)}} >
+                        <h1><i className="bi bi-person-circle header-location-btn"></i></h1>
                     </div>
                 </div>
 
@@ -62,12 +63,14 @@ const Header = ({ search, setSearch, isSearchOpen, setIsSearchOpen }) => {
                 <div className={`header-btn ${totalItems > 0 ? "header-active" : "header-disabled"}`}>
                     {!isSearchOpen && (
 
-                        <button className='btn-login'>Login</button>
+                        <button className='btn-login' onClick={()=>{setIsLoginFormOpen(true)}} >Login</button>
                     )}
                     <button onClick={() => navigate("/cart")} className='btn-cart'> <i className="bi bi-cart4"></i> My Cart {totalItems}</button>
                 </div>
             </div>
-                {/* <LoginForm/> */}
+            {isLoginFormOpen&&
+                <LoginForm setIsLoginFormOpen={setIsLoginFormOpen}/>
+            }
 
         </>
     )

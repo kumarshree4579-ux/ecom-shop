@@ -9,26 +9,29 @@ import ProductSkelton from '../Components/ProductSkelton.jsx'
 const Home = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false)
   const [search, setSearch] = useState("")
-  const [products, setProducts] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [category, setCategory] = useState([])
+  const [products, setProducts] = useState([]);
 
-  console.log("Home " + search);
 
 
   const [groupedProducts, setGroupedProducts] = useState({});
 
   useEffect(() => {
+    fetch('/Products/products-category.json')
+      .then((res) => res.json())
+      .then((data) => { setCategory(data) })
     fetch('/Products/products.json')
       .then((res) => res.json())
       .then((data) => {
         setProducts(data);
-        const grouped = data.reduce((acc, product) => {
-          acc[product.category] = acc[product.category] || [];
-          acc[product.category].push(product);
-          return acc;
-        }, {});
-        setGroupedProducts(grouped);
+        // const grouped = data.reduce((acc, product) => {
+        //   acc[product.category] = acc[product.category] || [];
+        //   acc[product.category].push(product);
+        //   return acc;
+        // }, {});
+        // setGroupedProducts(grouped);
       });
     setTimeout(() => {
       setLoading(false)
@@ -40,17 +43,13 @@ const Home = () => {
     const filtered = products.filter(product => product.title.toLowerCase().includes(search.toLowerCase()));
     setFilteredProducts(filtered);
   }, [search, products]);
-
-  console.log(JSON.stringify(filteredProducts));
-
-
   return (
     <>
       <Header search={search} setSearch={setSearch} isSearchOpen={isSearchOpen} setIsSearchOpen={setIsSearchOpen} />
       {!isSearchOpen && (
         <>
           <Hero />
-          <Products groupedProducts={groupedProducts} setGroupedProducts={setGroupedProducts} loading={loading} />
+          <Products category={category} products={products} groupedProducts={groupedProducts} setGroupedProducts={setGroupedProducts} loading={loading} />
           <Footer />
 
         </>

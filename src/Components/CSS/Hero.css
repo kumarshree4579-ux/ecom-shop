@@ -1,5 +1,7 @@
 .Hero {
     margin: 0 2%;
+    width: 96%;
+
 }
 
 #banner img {
@@ -19,7 +21,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     width: 95%;
-    padding: 0px 15px;
+    padding: 0px 2.5%;
     cursor: pointer;
 
 }
@@ -43,4 +45,50 @@
 .slice-img {
     width: 100%;
     height: auto;
+}
+@media (max-width: 768px) {
+
+    .Hero {
+        margin: 0;
+        width: 100%;
+    }
+
+    #banner img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .hero-sale {
+        flex-direction: column;
+        gap: 10px;
+        width: 95%;
+        padding: 10px 0;
+    }
+
+    .hero-sale > img {
+        width: 100%;
+        border-radius: 6px;
+    }
+
+    .hero-muti-img-grid {
+        padding: 10px;
+    }
+
+    .slice {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .slice-item {
+        width: 100%;
+    }
+
+    .slice-img {
+        width: 100%;
+        height: auto;
+        border-radius: 6px;
+    }
 }
