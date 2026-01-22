@@ -1,0 +1,242 @@
+[
+  {
+    "_id": "101",
+    "name": "Shree Kumar",
+    "email": "shreekumarverma9@gmail.com",
+    "phone": "9876543210",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "102",
+    "name": "Vivek Kumar",
+    "email": "vivek@gmail.com",
+    "phone": "9876543211",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "103",
+    "name": "Amit Sharma",
+    "email": "amit.sharma@gmail.com",
+    "phone": "9876543212",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "104",
+    "name": "Rahul Verma",
+    "email": "rahul.verma@gmail.com",
+    "phone": "9876543213",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "105",
+    "name": "Neha Singh",
+    "email": "neha.singh@gmail.com",
+    "phone": "9876543214",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "106",
+    "name": "Pooja Mehta",
+    "email": "pooja.mehta@gmail.com",
+    "phone": "9876543215",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "107",
+    "name": "Rohit Yadav",
+    "email": "rohit.yadav@gmail.com",
+    "phone": "9876543216",
+    "isActive": false,
+    "isDeleted": false
+  },
+  {
+    "_id": "108",
+    "name": "Ankit Jain",
+    "email": "ankit.jain@gmail.com",
+    "phone": "9876543217",
+    "isActive": false,
+    "isDeleted": true
+  },
+  {
+    "_id": "109",
+    "name": "Suman Patel",
+    "email": "suman.patel@gmail.com",
+    "phone": "9876543218",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "110",
+    "name": "Kiran Joshi",
+    "email": "kiran.joshi@gmail.com",
+    "phone": "9876543219",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "111",
+    "name": "Manish Gupta",
+    "email": "manish.gupta@gmail.com",
+    "phone": "9876543220",
+    "isActive": false,
+    "isDeleted": false
+  },
+  {
+    "_id": "112",
+    "name": "Sneha Kapoor",
+    "email": "sneha.kapoor@gmail.com",
+    "phone": "9876543221",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "113",
+    "name": "Deepak Mishra",
+    "email": "deepak.mishra@gmail.com",
+    "phone": "9876543222",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "114",
+    "name": "Nisha Agarwal",
+    "email": "nisha.agarwal@gmail.com",
+    "phone": "9876543223",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "115",
+    "name": "Sandeep Kumar",
+    "email": "sandeep.kumar@gmail.com",
+    "phone": "9876543224",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "116",
+    "name": "Priya Malhotra",
+    "email": "priya.malhotra@gmail.com",
+    "phone": "9876543225",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "117",
+    "name": "Arjun Rana",
+    "email": "arjun.rana@gmail.com",
+    "phone": "9876543226",
+    "isActive": false,
+    "isDeleted": false
+  },
+  {
+    "_id": "118",
+    "name": "Komal Bansal",
+    "email": "komal.bansal@gmail.com",
+    "phone": "9876543227",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "119",
+    "name": "Nitin Chawla",
+    "email": "nitin.chawla@gmail.com",
+    "phone": "9876543228",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "120",
+    "name": "Ritu Saxena",
+    "email": "ritu.saxena@gmail.com",
+    "phone": "9876543229",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "121",
+    "name": "Mohit Arora",
+    "email": "mohit.arora@gmail.com",
+    "phone": "9876543230",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "122",
+    "name": "Ayesha Khan",
+    "email": "ayesha.khan@gmail.com",
+    "phone": "9876543231",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "123",
+    "name": "Varun Khanna",
+    "email": "varun.khanna@gmail.com",
+    "phone": "9876543232",
+    "isActive": false,
+    "isDeleted": false
+  },
+  {
+    "_id": "124",
+    "name": "Pankaj Tripathi",
+    "email": "pankaj.tripathi@gmail.com",
+    "phone": "9876543233",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "125",
+    "name": "Sunita Roy",
+    "email": "sunita.roy@gmail.com",
+    "phone": "9876543234",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "126",
+    "name": "Harsh Vardhan",
+    "email": "harsh.vardhan@gmail.com",
+    "phone": "9876543235",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "127",
+    "name": "Payal Sethi",
+    "email": "payal.sethi@gmail.com",
+    "phone": "9876543236",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "128",
+    "name": "Rajeev Nair",
+    "email": "rajeev.nair@gmail.com",
+    "phone": "9876543237",
+    "isActive": false,
+    "isDeleted": false
+  },
+  {
+    "_id": "129",
+    "name": "Isha Bhatt",
+    "email": "isha.bhatt@gmail.com",
+    "phone": "9876543238",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "130",
+    "name": "Kunal Desai",
+    "email": "kunal.desai@gmail.com",
+    "phone": "9876543239",
+    "isActive": true,
+    "isDeleted": false
+  }
+]

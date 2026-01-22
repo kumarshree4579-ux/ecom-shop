@@ -1,0 +1,31 @@
+[
+    {
+        "_id": "1",
+        "categoryName": "Dairy, Bread & Eggs"
+    },
+    {
+        "_id": "2",
+        "categoryName": "Rolling paper & tobacco"
+    },
+    {
+        "_id": "3",
+        "categoryName": "Snacks & Munchies"
+    },
+    {
+        "_id": "4",
+        "categoryName": "Hookah"
+    },
+    {
+        "_id": "5",
+        "categoryName": "Mouth fresheners"
+    },
+    {
+        "_id": "6",
+        "categoryName": "Cold Drinks & Juices"
+    },
+    {
+        "_id": "7",
+        "categoryName": "Candies & Gums"
+    }
+
+]
