@@ -1,0 +1,96 @@
+[
+  {
+    "orderId": "ORD001",
+    "customerId": "101",
+    "items": [
+      { "productId": 1, "qty": 2 },
+      { "productId": 2, "qty": 2 }
+    ],
+    "status": "Delivered",
+    "orderdate": "01/01/2026"
+  },
+  {
+    "orderId": "ORD002",
+    "customerId": "102",
+    "items": [
+      { "productId": 3, "qty": 1 }
+    ],
+    "status": "Pending",
+    "orderdate": "02/01/2026"
+  },
+  {
+    "orderId": "ORD003",
+    "customerId": "103",
+    "items": [
+      { "productId": 4, "qty": 5 }
+    ],
+    "status": "Cancelled",
+    "orderdate": "03/01/2026"
+  },
+  {
+    "orderId": "ORD004",
+    "customerId": "104",
+    "items": [
+      { "productId": 2, "qty": 1 },
+      { "productId": 5, "qty": 3 }
+    ],
+    "status": "Delivered",
+    "orderdate": "04/01/2026"
+  },
+  {
+    "orderId": "ORD005",
+    "customerId": "105",
+    "items": [
+      { "productId": 6, "qty": 2 }
+    ],
+    "status": "Pending",
+    "orderdate": "05/01/2026"
+  },
+  {
+    "orderId": "ORD006",
+    "customerId": "106",
+    "items": [
+      { "productId": 7, "qty": 4 }
+    ],
+    "status": "Delivered",
+    "orderdate": "06/01/2026"
+  },
+  {
+    "orderId": "ORD007",
+    "customerId": "107",
+    "items": [
+      { "productId": 8, "qty": 1 },
+      { "productId": 9, "qty": 2 }
+    ],
+    "status": "Cancelled",
+    "orderdate": "07/01/2026"
+  },
+  {
+    "orderId": "ORD008",
+    "customerId": "108",
+    "items": [
+      { "productId": 10, "qty": 1 }
+    ],
+    "status": "Pending",
+    "orderdate": "08/01/2026"
+  },
+  {
+    "orderId": "ORD009",
+    "customerId": "109",
+    "items": [
+      { "productId": 1, "qty": 3 }
+    ],
+    "status": "Delivered",
+    "orderdate": "09/01/2026"
+  },
+  {
+    "orderId": "ORD010",
+    "customerId": "110",
+    "items": [
+      { "productId": 4, "qty": 2 },
+      { "productId": 6, "qty": 1 }
+    ],
+    "status": "Cancelled",
+    "orderdate": "10/01/2026"
+  }
+]

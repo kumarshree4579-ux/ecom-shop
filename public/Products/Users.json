@@ -1,0 +1,10 @@
+[
+    {
+        "_id":1001,
+        "name":"Rajat Yadav",
+        "email":"raj@gmail.com",
+        "pass":"Test",
+        "isActive":true,
+        "isDeleted":false
+    }
+]

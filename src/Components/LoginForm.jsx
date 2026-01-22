@@ -66,6 +66,7 @@ const LoginForm = ({setIsLoginFormOpen}) => {
         }
     };
 
+    
     const verifyOtp = (enteredOtp) => {
         if (enteredOtp === "1234") {
             Swal.fire({

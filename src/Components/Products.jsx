@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 import ProductSkelton from './ProductSkelton'
 
 const Products = ({ category, products, groupedProducts, setGroupedProducts, loading }) => {
-    console.log("category from Products.jsx:", category);
     const sliderRef = useRef(null);
     const slideLeft = () => {
         sliderRef.current.scrollLeft -= 250; // adjust scroll amount

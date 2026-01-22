@@ -1,0 +1,90 @@
+.admin-header-outer {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0 20px; */
+    border-bottom: 1px solid grey;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+}
+
+.admin-header-logo,
+.admin-btn-logout {
+    padding: 0 18px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.45rem;
+    font-weight: 600;
+}
+
+.admin-log {
+    color: red;
+}
+
+.admin-out {
+    color: cadetblue;
+}
+
+.admin-card-outer {
+    padding: 30px 20px;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+    color: #1a1919e9;
+    background-color: #f5f7fa;
+}
+
+.admin-card-outer > h3 {
+    padding: 10px 0;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.admin-card-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.admin-card {
+    border-radius: 12px;
+    width: 300px;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #fff;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.admin-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+}
+
+.admin-card .stat {
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 0;
+}
+
+.admin-card hr {
+    border: none;               
+    border-top: 1px solid #ddd;
+    margin: 15px 0;            
+}
+
+@media (max-width: 960px) {
+    .admin-card-main {
+        justify-content: center;
+    }
+    .admin-card {
+        width: 90%;
+    }
+}
